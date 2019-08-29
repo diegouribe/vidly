@@ -33,6 +33,7 @@ class Movies extends Component {
               <th scope="col">Stock</th>
               <th scope="col">Rate</th>
               <th scope="col" />
+              <th scope="col" />
             </tr>
           </thead>
           <tbody>
@@ -42,6 +43,9 @@ class Movies extends Component {
                 <td>{movie.genre.name}</td>
                 <td>{movie.numberInStock}</td>
                 <td>{movie.dailyRentalRate}</td>
+                <td>
+                  <i class="far fa-heart" />
+                </td>
                 <td>
                   <button
                     type="button"
